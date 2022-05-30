@@ -29,6 +29,7 @@ export default function Home() {
             width={500}
             height={500}
             layout="intrinsic"
+            priority
           />
         </section>
       </div>

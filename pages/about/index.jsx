@@ -28,6 +28,7 @@ const About = () => {
             height={300}
             layout="intrinsic"
             className="object-scale-down rounded-lg sm:w-1/2"
+            priority
           />
           <div className="m-6 text-white sm:w-1/2">
             <p>
