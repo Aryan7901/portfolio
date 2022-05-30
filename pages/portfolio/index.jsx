@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Card from "../../components/Card";
 import { github, link } from "../../components/svgs/Svg";
-import ProjectLink from "../../components/projectLink";
+import ProjectLink from "../../components/ProjectLink";
 export default function index() {
   const PROJECTS = [
     {
