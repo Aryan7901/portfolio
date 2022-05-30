@@ -1,4 +1,4 @@
-import React from "react";
+import { Fragment } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -93,9 +93,9 @@ export default function index() {
             </a>
           </div>
           <h2 className="mt-20 text-2xl text-white">My Projects</h2>
-          {PROJECTS.map((project) => {
+          {PROJECTS.map((project, index) => {
             return (
-              <>
+              <Fragment key={index}>
                 <Card src={project.src} alt={project.title}>
                   <h3 className="text-xl font-montserrat">{project.title}</h3>
 
@@ -107,7 +107,7 @@ export default function index() {
                   </ProjectLink>
                   <p>{project.text}</p>
                 </Card>
-              </>
+              </Fragment>
             );
           })}
         </motion.div>

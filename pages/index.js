@@ -1,7 +1,7 @@
 import Typewriter from "typewriter-effect";
 import Image from "next/image";
 import Head from "next/head";
-import Skills from "../components/NavBar/Skills/Skills";
+import Skills from "../components/Skills";
 export default function Home() {
   return (
     <>
