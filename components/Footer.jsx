@@ -26,7 +26,7 @@ const Footer = () => {
         <motion.a
           whileHover={hover}
           whileTap={{ scale: 0.95, color: "#1ed760" }}
-          href="https:/www.instagram.com"
+          href="https://www.instagram.com/aryan_7901/"
         >
           Instagram
         </motion.a>
