@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 function AboutItem({ href, icon, children }) {
   return (
     <Link passHref href={href}>
-      <motion.div
+      <m.div
         className="flex text-white hover:cursor-pointer"
         whileHover={{
           scale: 1.2,
@@ -15,7 +15,7 @@ function AboutItem({ href, icon, children }) {
       >
         {icon}
         <p className="mx-2 text-lg font-light ">{children}</p>
-      </motion.div>
+      </m.div>
     </Link>
   );
 }

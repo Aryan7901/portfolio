@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 export default function Card({ children, src, alt }) {
   return (
-    <motion.div
+    <m.div
       className="flex flex-col justify-center w-11/12 m-12 md:flex-row "
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -20,6 +20,6 @@ export default function Card({ children, src, alt }) {
       <div className="flex flex-col items-center gap-6 p-6 text-white rounded-b md:rounded-r md:rounded-bl-none md:w-1/3 bg-zinc-900">
         {children}
       </div>
-    </motion.div>
+    </m.div>
   );
 }

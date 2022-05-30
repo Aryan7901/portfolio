@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { location, email, phone, cross, tick } from "../../components/svgs/Svg";
 import AboutItem from "../../components/AboutItem";
 import { sendForm } from "@emailjs/browser";
@@ -60,7 +60,7 @@ const Contact = () => {
         <h2 className="m-6 text-xl font-light text-white">
           Got an idea? Let&apos;s get in touch.
         </h2>
-        <motion.div
+        <m.div
           className="flex flex-col m-20 gap-x-40 gap-y-10 lg:flex-row sm:scale-110"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -109,7 +109,7 @@ const Contact = () => {
               </p>
             )}
 
-            <motion.button
+            <m.button
               className="w-1/2 p-2 mx-auto my-3 border-2 rounded-lg outline-none text-neon border-neon hover:text-white "
               whileHover={{
                 backgroundColor: "#1ed760",
@@ -121,7 +121,7 @@ const Contact = () => {
               }}
             >
               Send
-            </motion.button>
+            </m.button>
             {sentState && !error && (
               <p className="flex mx-auto mt-2 text-neon">
                 Message Sent Successfully
@@ -149,7 +149,7 @@ const Contact = () => {
               Mumbai, MH
             </AboutItem>
           </div>
-        </motion.div>
+        </m.div>
       </div>
     </>
   );

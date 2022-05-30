@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import Card from "../../components/Card";
 import { github, link } from "../../components/svgs/Svg";
 import ProjectLink from "../../components/ProjectLink";
@@ -65,7 +65,7 @@ export default function index() {
         <h2 className="m-6 text-xl font-light text-white">
           More about my work and personal projects.
         </h2>
-        <motion.div
+        <m.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
@@ -74,7 +74,7 @@ export default function index() {
           <h2 className="mt-12 text-2xl text-white">Résumé</h2>
           <div className="m-6 text-lg text-neon">
             <a href="/aryan_resume.pdf" target="_blank">
-              <motion.div
+              <m.div
                 className="flex flex-col items-center"
                 whileHover={{ cursor: "pointer", scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -89,7 +89,7 @@ export default function index() {
                 />
                 <p className="m-4">See My Résumé</p>
                 <hr className="w-full bg-neon" />
-              </motion.div>
+              </m.div>
             </a>
           </div>
           <h2 className="mt-20 text-2xl text-white">My Projects</h2>
@@ -110,7 +110,7 @@ export default function index() {
               </Fragment>
             );
           })}
-        </motion.div>
+        </m.div>
       </div>
     </>
   );

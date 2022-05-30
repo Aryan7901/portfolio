@@ -1,11 +1,11 @@
 import Link from "next/link";
 import React from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import { useRouter } from "next/router";
 export default function NavItem({ children, href }) {
   const router = useRouter();
   return (
-    <motion.li
+    <m.li
       className={`flex items-center mx-3 my-2 text-xs font-semibold leading-snug  uppercase hover:text-neon  ${
         router.asPath === href
           ? "text-neon opacity-100"
@@ -18,6 +18,6 @@ export default function NavItem({ children, href }) {
       }}
     >
       <Link href={href}>{children}</Link>
-    </motion.li>
+    </m.li>
   );
 }

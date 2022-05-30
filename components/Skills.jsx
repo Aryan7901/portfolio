@@ -1,6 +1,6 @@
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { atomDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
-import { motion } from "framer-motion";
+import { PrismAsyncLight as SyntaxHighlighter } from "react-syntax-highlighter";
+import atomDark from "react-syntax-highlighter/dist/cjs/styles/prism/atom-dark";
+import { m } from "framer-motion";
 import Image from "next/image";
 const Skills = () => {
   const skills = [
@@ -38,7 +38,7 @@ const Skills = () => {
 }`;
   return (
     <>
-      <motion.div
+      <m.div
         className="text-center font-montserrat "
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -55,8 +55,8 @@ const Skills = () => {
         >
           {codeString}
         </SyntaxHighlighter>
-      </motion.div>
-      <motion.div
+      </m.div>
+      <m.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.1 }}
@@ -75,7 +75,7 @@ const Skills = () => {
             />
           );
         })}
-      </motion.div>
+      </m.div>
     </>
   );
 };

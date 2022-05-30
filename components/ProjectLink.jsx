@@ -1,8 +1,8 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 export default function ProjectLink({ href, children, icon }) {
   return (
-    <motion.a
+    <m.a
       href={href}
       className="flex items-center "
       whileHover={{ cursor: "pointer", scale: 1.1, color: "#1ed760" }}
@@ -10,6 +10,6 @@ export default function ProjectLink({ href, children, icon }) {
     >
       <span className="mx-2">{icon}</span>
       {children}
-    </motion.a>
+    </m.a>
   );
 }

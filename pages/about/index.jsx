@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 import Head from "next/head";
 
 const About = () => {
@@ -15,7 +15,7 @@ const About = () => {
         <h2 className="m-6 text-xl font-light text-white">
           Let me tell you, who I am....
         </h2>
-        <motion.div
+        <m.div
           className="flex flex-col justify-center gap-2 m-4 sm:flex-row"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -40,7 +40,7 @@ const About = () => {
               watching anime.
             </p>
           </div>
-        </motion.div>
+        </m.div>
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import NavItem from "./NavItem";
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 const navVariant = {
   initial: { x: "100vw" },
@@ -47,23 +47,23 @@ export default function Nav() {
 
         <div className="items-center flex-grow lg:flex">
           {open && (
-            <motion.ul
+            <m.ul
               className="flex flex-col ml-auto list-none lg:hidden "
               variants={navVariant}
               initial="initial"
               animate="animate"
             >
               {NavItems}
-            </motion.ul>
+            </m.ul>
           )}
-          <motion.ul
+          <m.ul
             className="flex-row hidden ml-auto list-none lg:flex"
             variants={navVariant}
             initial="initial"
             animate="animate"
           >
             {NavItems}
-          </motion.ul>
+          </m.ul>
         </div>
       </div>
     </nav>
