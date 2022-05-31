@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "jsxImportSource": "preact",
-    "esModuleInterop": true
+    "jsxImportSource": "preact"
   }
 }
