@@ -7,6 +7,7 @@ const Skills = () => {
     { src: "/skills1.png", alt: "Html Css Javascript" },
     { src: "/react.jpg", alt: "React" },
     { src: "/next.png", alt: "Next" },
+    { src: "/vue.jpg", alt: "Vue" },
     { src: "/express.png", alt: "Express and Node" },
     { src: "/tailwind.jpg", alt: "Tailwind" },
     { src: "/bootstrap.png", alt: "Bootstrap" },
