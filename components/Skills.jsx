@@ -5,10 +5,12 @@ import Image from "next/image";
 const Skills = () => {
   const skills = [
     { src: "/skills1.png", alt: "Html Css Javascript" },
+    { src: "/python.jpg", alt: "Python" },
     { src: "/react.jpg", alt: "React" },
     { src: "/next.png", alt: "Next" },
     { src: "/vue.jpg", alt: "Vue" },
     { src: "/express.png", alt: "Express and Node" },
+    { src: "/fastapi.jpg", alt: "Fast Api" },
     { src: "/tailwind.jpg", alt: "Tailwind" },
     { src: "/bootstrap.png", alt: "Bootstrap" },
     { src: "/mui.png", alt: "Mui" },
