@@ -28,10 +28,7 @@ export default function Nav() {
     <nav className="fixed top-0 z-10 flex flex-wrap items-center justify-between w-screen px-2 py-3 backdrop-blur">
       <div className="container flex flex-wrap items-center justify-between px-4 mx-auto">
         <div className="relative flex justify-between w-full px-4 lg:w-auto lg:static lg:block lg:justify-start">
-          <a
-            className="inline-block py-2 mr-4 text-2xl leading-relaxed text-white whitespace-nowrap font-dynalight md:text-3xl"
-            href="#pablo"
-          >
+          <a className="inline-block py-2 mr-4 text-2xl leading-relaxed text-white whitespace-nowrap font-dynalight md:text-3xl">
             Aryan Shetty
           </a>
           <button
