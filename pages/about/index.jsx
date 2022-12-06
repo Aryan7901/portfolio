@@ -32,7 +32,8 @@ const About = () => {
           />
           <div className="m-6 text-white sm:w-1/2">
             <p>
-              Hello. My name is Aryan Shetty and I am a 4th year Computer
+              Hello. 
+              My name is Aryan Shetty and I am a 4th year Computer
               Science Student at Manipal Institute of Technology.
               <br />I have a keen interest in web development and data science. I like
               learning about new technologies in my free time.
