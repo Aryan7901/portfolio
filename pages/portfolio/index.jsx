@@ -39,6 +39,13 @@ export default function index() {
       text: `A web application that shows nearby events and featured events built using Next.js`,
     },
     {
+      src: "/url-shortener.png",
+      title: "URL Shortener",
+      live: "aryan7901.github.io/url-shortener/#/",
+      git: "github.com/Aryan7901/url-shortener",
+      text: `A handy url shortener built using the MEVN stack`,
+    },
+    {
       src: "/yelp-camp.png",
       title: "Yelp Camp",
       git: "github.com/Aryan7901/YelpCamp",
