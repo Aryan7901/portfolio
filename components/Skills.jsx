@@ -4,6 +4,8 @@ import { m } from "framer-motion";
 import Image from "next/image";
 const Skills = () => {
   const skills = [
+    { src: "/go.png", alt: "Golang" },
+    { src: "/python.png", alt: "Python" },
     { src: "/skills1.png", alt: "Html Css Javascript" },
     { src: "/react.jpg", alt: "React" },
     { src: "/next.png", alt: "Next" },
@@ -20,15 +22,16 @@ const Skills = () => {
   const codeString = `const SKILLS={
       Languages:
       [
-        'Html','Css',
+        'Go',
         'Python','Javascript',
-        'C++','MySQL'
+        'C++','PostgreSQL','MySQL'
       ],
-      JS_Frameworks:
+      Frameworks:
       [
+        'Express','FastAPI','Echo',
         'React','NextJS',
         'JQuery','Svelte',
-        'Express'
+        'Vue','React Native'
       ],
       CSS_Frameworks:
       [

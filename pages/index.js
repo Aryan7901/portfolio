@@ -21,7 +21,7 @@ export default function Home() {
             />
           </div>
           <h2 className="text-green-500 text:2xl lg:text-3xl font-montserrat">
-            a <span className="italic">Web Developer</span>
+            a <span className="italic">Software Engineer</span>
           </h2>
           <Image
             src="/man.png"
